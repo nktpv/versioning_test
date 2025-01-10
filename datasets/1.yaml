@@ -23,7 +23,8 @@ metrics:
   description: null
   d3format: null
   currency: null
-  extra: null
+  extra:
+    warning_markdown: ''
   warning_text: null
 columns:
 - column_name: 'Unnamed: 0'
@@ -37,7 +38,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: hier nam
   verbose_name: null
   is_dttm: false
@@ -49,7 +50,19 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
+- column_name: CNT1_A
+  verbose_name: New_tag
+  is_dttm: false
+  is_active: true
+  type: BIGINT
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
 - column_name: PRICE1_A
   verbose_name: null
   is_dttm: false
@@ -61,19 +74,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
-- column_name: CNT1_A
-  verbose_name: null
-  is_dttm: false
-  is_active: true
-  type: BIGINT
-  advanced_data_type: null
-  groupby: true
-  filterable: true
-  expression: null
-  description: null
-  python_date_format: null
-  extra: null
+  extra: {}
 - column_name: PRICE1_B
   verbose_name: null
   is_dttm: false
@@ -85,7 +86,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: CNT1_B
   verbose_name: null
   is_dttm: false
@@ -97,7 +98,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: PRICE1_C
   verbose_name: null
   is_dttm: false
@@ -109,7 +110,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: CNT1_C
   verbose_name: null
   is_dttm: false
@@ -121,7 +122,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: PRICE1_D
   verbose_name: null
   is_dttm: false
@@ -133,7 +134,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: CNT1_D
   verbose_name: null
   is_dttm: false
@@ -145,7 +146,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: PRICE1_E
   verbose_name: null
   is_dttm: false
@@ -157,7 +158,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: CNT1_E
   verbose_name: null
   is_dttm: false
@@ -169,7 +170,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: PRICE2_A
   verbose_name: null
   is_dttm: false
@@ -181,7 +182,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: PRICE2_B
   verbose_name: null
   is_dttm: false
@@ -193,7 +194,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: PRICE2_C
   verbose_name: null
   is_dttm: false
@@ -205,7 +206,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: PRICE2_D
   verbose_name: null
   is_dttm: false
@@ -217,7 +218,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: PRICE2_E
   verbose_name: null
   is_dttm: false
@@ -229,7 +230,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: CNT4_A
   verbose_name: null
   is_dttm: false
@@ -241,7 +242,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: CNT4_B
   verbose_name: null
   is_dttm: false
@@ -253,7 +254,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: CNT4_C
   verbose_name: null
   is_dttm: false
@@ -265,7 +266,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: CNT4_D
   verbose_name: null
   is_dttm: false
@@ -277,7 +278,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: CNT4_E
   verbose_name: null
   is_dttm: false
@@ -289,7 +290,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: AVALPS_A
   verbose_name: null
   is_dttm: false
@@ -301,7 +302,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: SALES_A
   verbose_name: null
   is_dttm: false
@@ -313,7 +314,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: AVALPS_B
   verbose_name: null
   is_dttm: false
@@ -325,7 +326,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: AVOLPS_A
   verbose_name: null
   is_dttm: false
@@ -337,7 +338,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: VAL_A
   verbose_name: null
   is_dttm: false
@@ -349,7 +350,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: ASPS_A
   verbose_name: null
   is_dttm: false
@@ -361,7 +362,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: AVALPS_C
   verbose_name: null
   is_dttm: false
@@ -373,7 +374,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: AVALPS_D
   verbose_name: null
   is_dttm: false
@@ -385,7 +386,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: AVALPS_E
   verbose_name: null
   is_dttm: false
@@ -397,7 +398,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: CummWD_A
   verbose_name: null
   is_dttm: false
@@ -409,7 +410,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: AVGPRICEZ
   verbose_name: null
   is_dttm: false
@@ -421,7 +422,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: CLVAL_B
   verbose_name: null
   is_dttm: false
@@ -433,7 +434,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: WVOLD_A
   verbose_name: null
   is_dttm: false
@@ -445,7 +446,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: ND_A
   verbose_name: null
   is_dttm: false
@@ -457,7 +458,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: SALES_B
   verbose_name: null
   is_dttm: false
@@ -469,7 +470,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: AVOLPS_B
   verbose_name: null
   is_dttm: false
@@ -481,7 +482,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: VAL_B
   verbose_name: null
   is_dttm: false
@@ -493,7 +494,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: ASPS_B
   verbose_name: null
   is_dttm: false
@@ -505,7 +506,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: VOL_A
   verbose_name: null
   is_dttm: false
@@ -517,7 +518,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: CLVAL_C
   verbose_name: null
   is_dttm: false
@@ -529,7 +530,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: CLVAL_D
   verbose_name: null
   is_dttm: false
@@ -541,7 +542,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: CLVAL_E
   verbose_name: null
   is_dttm: false
@@ -553,7 +554,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: SALES_C
   verbose_name: null
   is_dttm: false
@@ -565,7 +566,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: AVOLPS_C
   verbose_name: null
   is_dttm: false
@@ -577,7 +578,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: VAL_C
   verbose_name: null
   is_dttm: false
@@ -589,7 +590,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: ASPS_C
   verbose_name: null
   is_dttm: false
@@ -601,7 +602,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: SALES_D
   verbose_name: null
   is_dttm: false
@@ -613,7 +614,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: ADOFTPR
   verbose_name: null
   is_dttm: false
@@ -625,7 +626,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: PROD_TAG
   verbose_name: null
   is_dttm: false
@@ -637,7 +638,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: AVOLPS_D
   verbose_name: null
   is_dttm: false
@@ -649,7 +650,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: VAL_D
   verbose_name: null
   is_dttm: false
@@ -661,7 +662,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: ASPS_D
   verbose_name: null
   is_dttm: false
@@ -673,7 +674,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: SALES_E
   verbose_name: null
   is_dttm: false
@@ -685,7 +686,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: PER_TAG
   verbose_name: null
   is_dttm: false
@@ -697,7 +698,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: AVOLPS_E
   verbose_name: null
   is_dttm: false
@@ -709,7 +710,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: VAL_E
   verbose_name: null
   is_dttm: false
@@ -721,7 +722,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: ASPS_E
   verbose_name: null
   is_dttm: false
@@ -733,7 +734,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: MKT_TAG
   verbose_name: null
   is_dttm: false
@@ -745,7 +746,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: CummWD_B
   verbose_name: null
   is_dttm: false
@@ -757,7 +758,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: CummWD_C
   verbose_name: null
   is_dttm: false
@@ -769,7 +770,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: CummWD_D
   verbose_name: null
   is_dttm: false
@@ -781,7 +782,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: CummWD_E
   verbose_name: null
   is_dttm: false
@@ -793,7 +794,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: CLVOL_B
   verbose_name: null
   is_dttm: false
@@ -805,7 +806,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: WVOLD_B
   verbose_name: null
   is_dttm: false
@@ -817,7 +818,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: ND_B
   verbose_name: null
   is_dttm: false
@@ -829,7 +830,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: VOL_B
   verbose_name: null
   is_dttm: false
@@ -841,7 +842,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: ier_num
   verbose_name: null
   is_dttm: false
@@ -853,7 +854,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: display
   verbose_name: null
   is_dttm: false
@@ -865,7 +866,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: iddb
   verbose_name: null
   is_dttm: false
@@ -877,7 +878,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: lvl
   verbose_name: null
   is_dttm: false
@@ -889,7 +890,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: CLVOL_C
   verbose_name: null
   is_dttm: false
@@ -901,7 +902,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: TDISCV
   verbose_name: null
   is_dttm: false
@@ -913,7 +914,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: CLVOL_D
   verbose_name: null
   is_dttm: false
@@ -925,7 +926,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: WVOLD_C
   verbose_name: null
   is_dttm: false
@@ -937,7 +938,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: ND_C
   verbose_name: null
   is_dttm: false
@@ -949,7 +950,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: CLVOL_E
   verbose_name: null
   is_dttm: false
@@ -961,7 +962,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: VOL_C
   verbose_name: null
   is_dttm: false
@@ -973,7 +974,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: WVOLD_D
   verbose_name: null
   is_dttm: false
@@ -985,7 +986,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: ND_D
   verbose_name: null
   is_dttm: false
@@ -997,7 +998,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: WVOLD_E
   verbose_name: null
   is_dttm: false
@@ -1009,7 +1010,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: ND_E
   verbose_name: null
   is_dttm: false
@@ -1021,7 +1022,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: VOL_D
   verbose_name: null
   is_dttm: false
@@ -1033,7 +1034,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: TLENV
   verbose_name: null
   is_dttm: false
@@ -1045,7 +1046,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: VOL_E
   verbose_name: null
   is_dttm: false
@@ -1057,7 +1058,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: parent_t
   verbose_name: null
   is_dttm: false
@@ -1069,7 +1070,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: tag
   verbose_name: null
   is_dttm: false
@@ -1081,7 +1082,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: sdesc
   verbose_name: null
   is_dttm: false
@@ -1093,7 +1094,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: le
   verbose_name: null
   is_dttm: false
@@ -1105,7 +1106,7 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 - column_name: es
   verbose_name: null
   is_dttm: false
@@ -1117,6 +1118,6 @@ columns:
   expression: null
   description: null
   python_date_format: null
-  extra: null
+  extra: {}
 version: 1.0.0
 database_uuid: a2dc77af-e654-49bb-b321-40f6b559a1ee

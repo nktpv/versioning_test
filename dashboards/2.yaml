@@ -14,7 +14,8 @@ position:
     id: ROOT_ID
     type: ROOT
   GRID_ID:
-    children: []
+    children:
+    - ROW-N-9600UEPQ
     id: GRID_ID
     parents:
     - ROOT_ID
@@ -24,4 +25,29 @@ position:
     meta:
       text: new_test
     type: HEADER
+  ROW-N-9600UEPQ:
+    children:
+    - CHART-KDYHGCEP
+    id: ROW-N-9600UEPQ
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    type: ROW
+    parents:
+    - ROOT_ID
+    - GRID_ID
+  CHART-KDYHGCEP:
+    children: []
+    id: CHART-KDYHGCEP
+    meta:
+      chartId: null
+      height: 50
+      sliceName: asdfsdf
+      uuid: None
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-9600UEPQ
 version: 1.0.0

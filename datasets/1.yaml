@@ -63,6 +63,18 @@ columns:
   description: null
   python_date_format: null
   extra: {}
+- column_name: CNT1_D
+  verbose_name: tag_d
+  is_dttm: false
+  is_active: true
+  type: TEXT
+  advanced_data_type: null
+  groupby: true
+  filterable: true
+  expression: null
+  description: null
+  python_date_format: null
+  extra: {}
 - column_name: CNT4_A
   verbose_name: mamapapa
   is_dttm: false
@@ -136,18 +148,6 @@ columns:
   python_date_format: null
   extra: {}
 - column_name: PRICE1_D
-  verbose_name: null
-  is_dttm: false
-  is_active: true
-  type: TEXT
-  advanced_data_type: null
-  groupby: true
-  filterable: true
-  expression: null
-  description: null
-  python_date_format: null
-  extra: {}
-- column_name: CNT1_D
   verbose_name: null
   is_dttm: false
   is_active: true

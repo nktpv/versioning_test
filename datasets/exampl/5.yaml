@@ -15,12 +15,21 @@ extra: null
 normalize_columns: false
 always_filter_main_dttm: false
 uuid: 2cca260a-5f45-4a49-9cdb-c4f2af0199eb
-metrics: []
+metrics:
+- metric_name: count
+  verbose_name: COUNT(*)
+  metric_type: count
+  expression: COUNT(*)
+  description: null
+  d3format: null
+  currency: null
+  extra: null
+  warning_text: null
 columns:
 - column_name: 'Unnamed: 0'
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: BIGINT
   advanced_data_type: null
   groupby: true
@@ -32,7 +41,7 @@ columns:
 - column_name: hier nam
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -44,7 +53,7 @@ columns:
 - column_name: PRICE1_A
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: BIGINT
   advanced_data_type: null
   groupby: true
@@ -56,7 +65,7 @@ columns:
 - column_name: CNT1_A
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: BIGINT
   advanced_data_type: null
   groupby: true
@@ -68,7 +77,7 @@ columns:
 - column_name: PRICE1_B
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -80,7 +89,7 @@ columns:
 - column_name: CNT1_B
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -92,7 +101,7 @@ columns:
 - column_name: PRICE1_C
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -104,7 +113,7 @@ columns:
 - column_name: CNT1_C
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -116,7 +125,7 @@ columns:
 - column_name: PRICE1_D
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -128,7 +137,7 @@ columns:
 - column_name: CNT1_D
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -140,7 +149,7 @@ columns:
 - column_name: PRICE1_E
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -152,7 +161,7 @@ columns:
 - column_name: CNT1_E
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -164,7 +173,7 @@ columns:
 - column_name: PRICE2_A
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: BIGINT
   advanced_data_type: null
   groupby: true
@@ -176,7 +185,7 @@ columns:
 - column_name: PRICE2_B
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -188,7 +197,7 @@ columns:
 - column_name: PRICE2_C
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -200,7 +209,7 @@ columns:
 - column_name: PRICE2_D
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -212,7 +221,7 @@ columns:
 - column_name: PRICE2_E
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -224,7 +233,7 @@ columns:
 - column_name: CNT4_A
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: BIGINT
   advanced_data_type: null
   groupby: true
@@ -236,7 +245,7 @@ columns:
 - column_name: CNT4_B
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -248,7 +257,7 @@ columns:
 - column_name: CNT4_C
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -260,7 +269,7 @@ columns:
 - column_name: CNT4_D
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -272,7 +281,7 @@ columns:
 - column_name: CNT4_E
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -284,7 +293,7 @@ columns:
 - column_name: AVALPS_A
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: BIGINT
   advanced_data_type: null
   groupby: true
@@ -296,7 +305,7 @@ columns:
 - column_name: SALES_A
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: BIGINT
   advanced_data_type: null
   groupby: true
@@ -308,7 +317,7 @@ columns:
 - column_name: AVALPS_B
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -320,7 +329,7 @@ columns:
 - column_name: AVOLPS_A
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: BIGINT
   advanced_data_type: null
   groupby: true
@@ -332,7 +341,7 @@ columns:
 - column_name: VAL_A
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: BIGINT
   advanced_data_type: null
   groupby: true
@@ -344,7 +353,7 @@ columns:
 - column_name: ASPS_A
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: BIGINT
   advanced_data_type: null
   groupby: true
@@ -356,7 +365,7 @@ columns:
 - column_name: AVALPS_C
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -368,7 +377,7 @@ columns:
 - column_name: AVALPS_D
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -380,7 +389,7 @@ columns:
 - column_name: AVALPS_E
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -392,7 +401,7 @@ columns:
 - column_name: CummWD_A
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: BIGINT
   advanced_data_type: null
   groupby: true
@@ -404,7 +413,7 @@ columns:
 - column_name: AVGPRICEZ
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: BIGINT
   advanced_data_type: null
   groupby: true
@@ -416,7 +425,7 @@ columns:
 - column_name: CLVAL_B
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -428,7 +437,7 @@ columns:
 - column_name: WVOLD_A
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: BIGINT
   advanced_data_type: null
   groupby: true
@@ -440,7 +449,7 @@ columns:
 - column_name: ND_A
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: BIGINT
   advanced_data_type: null
   groupby: true
@@ -452,7 +461,7 @@ columns:
 - column_name: SALES_B
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -464,7 +473,7 @@ columns:
 - column_name: AVOLPS_B
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -476,7 +485,7 @@ columns:
 - column_name: VAL_B
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -488,7 +497,7 @@ columns:
 - column_name: ASPS_B
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -500,7 +509,7 @@ columns:
 - column_name: VOL_A
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: BIGINT
   advanced_data_type: null
   groupby: true
@@ -512,7 +521,7 @@ columns:
 - column_name: CLVAL_C
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -524,7 +533,7 @@ columns:
 - column_name: CLVAL_D
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -536,7 +545,7 @@ columns:
 - column_name: CLVAL_E
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -548,7 +557,7 @@ columns:
 - column_name: SALES_C
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -560,7 +569,7 @@ columns:
 - column_name: AVOLPS_C
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -572,7 +581,7 @@ columns:
 - column_name: VAL_C
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -584,7 +593,7 @@ columns:
 - column_name: ASPS_C
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -596,7 +605,7 @@ columns:
 - column_name: SALES_D
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -608,7 +617,7 @@ columns:
 - column_name: ADOFTPR
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -620,7 +629,7 @@ columns:
 - column_name: PROD_TAG
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -632,7 +641,7 @@ columns:
 - column_name: AVOLPS_D
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -644,7 +653,7 @@ columns:
 - column_name: VAL_D
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -656,7 +665,7 @@ columns:
 - column_name: ASPS_D
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -668,7 +677,7 @@ columns:
 - column_name: SALES_E
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -680,7 +689,7 @@ columns:
 - column_name: PER_TAG
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -692,7 +701,7 @@ columns:
 - column_name: AVOLPS_E
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -704,7 +713,7 @@ columns:
 - column_name: VAL_E
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -716,7 +725,7 @@ columns:
 - column_name: ASPS_E
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -728,7 +737,7 @@ columns:
 - column_name: MKT_TAG
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -740,7 +749,7 @@ columns:
 - column_name: CummWD_B
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: BIGINT
   advanced_data_type: null
   groupby: true
@@ -752,7 +761,7 @@ columns:
 - column_name: CummWD_C
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: BIGINT
   advanced_data_type: null
   groupby: true
@@ -764,7 +773,7 @@ columns:
 - column_name: CummWD_D
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: BIGINT
   advanced_data_type: null
   groupby: true
@@ -776,7 +785,7 @@ columns:
 - column_name: CummWD_E
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: BIGINT
   advanced_data_type: null
   groupby: true
@@ -788,7 +797,7 @@ columns:
 - column_name: CLVOL_B
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -800,7 +809,7 @@ columns:
 - column_name: WVOLD_B
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -812,7 +821,7 @@ columns:
 - column_name: ND_B
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -824,7 +833,7 @@ columns:
 - column_name: VOL_B
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -836,7 +845,7 @@ columns:
 - column_name: ier_num
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: BIGINT
   advanced_data_type: null
   groupby: true
@@ -848,7 +857,7 @@ columns:
 - column_name: display
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: BIGINT
   advanced_data_type: null
   groupby: true
@@ -860,7 +869,7 @@ columns:
 - column_name: iddb
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: BIGINT
   advanced_data_type: null
   groupby: true
@@ -872,7 +881,7 @@ columns:
 - column_name: lvl
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: BIGINT
   advanced_data_type: null
   groupby: true
@@ -884,7 +893,7 @@ columns:
 - column_name: CLVOL_C
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -896,7 +905,7 @@ columns:
 - column_name: TDISCV
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -908,7 +917,7 @@ columns:
 - column_name: CLVOL_D
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -920,7 +929,7 @@ columns:
 - column_name: WVOLD_C
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -932,7 +941,7 @@ columns:
 - column_name: ND_C
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -944,7 +953,7 @@ columns:
 - column_name: CLVOL_E
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -956,7 +965,7 @@ columns:
 - column_name: VOL_C
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -968,7 +977,7 @@ columns:
 - column_name: WVOLD_D
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -980,7 +989,7 @@ columns:
 - column_name: ND_D
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -992,7 +1001,7 @@ columns:
 - column_name: WVOLD_E
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -1004,7 +1013,7 @@ columns:
 - column_name: ND_E
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -1016,7 +1025,7 @@ columns:
 - column_name: VOL_D
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -1028,7 +1037,7 @@ columns:
 - column_name: TLENV
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -1040,7 +1049,7 @@ columns:
 - column_name: VOL_E
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -1052,7 +1061,7 @@ columns:
 - column_name: parent_t
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -1064,7 +1073,7 @@ columns:
 - column_name: tag
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -1076,7 +1085,7 @@ columns:
 - column_name: sdesc
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -1088,7 +1097,7 @@ columns:
 - column_name: le
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true
@@ -1100,7 +1109,7 @@ columns:
 - column_name: es
   verbose_name: null
   is_dttm: false
-  is_active: null
+  is_active: true
   type: TEXT
   advanced_data_type: null
   groupby: true

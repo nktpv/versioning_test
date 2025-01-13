@@ -14,8 +14,7 @@ position:
     id: ROOT_ID
     type: ROOT
   GRID_ID:
-    children:
-    - ROW-N-FNADU4Q9
+    children: []
     id: GRID_ID
     parents:
     - ROOT_ID
@@ -25,29 +24,4 @@ position:
     meta:
       text: njjnnj
     type: HEADER
-  ROW-N-FNADU4Q9:
-    children:
-    - CHART-8XFQ8SF1
-    id: ROW-N-FNADU4Q9
-    meta:
-      '0': ROOT_ID
-      background: BACKGROUND_TRANSPARENT
-    type: ROW
-    parents:
-    - ROOT_ID
-    - GRID_ID
-  CHART-8XFQ8SF1:
-    children: []
-    id: CHART-8XFQ8SF1
-    meta:
-      chartId: 18
-      height: 50
-      sliceName: test
-      uuid: 1e91db9b-8cec-404f-9176-59c79cf7f22f
-      width: 4
-    type: CHART
-    parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-N-FNADU4Q9
 version: 1.0.0

@@ -1,0 +1,218 @@
+dashboard_title: mmmm
+description: null
+css: null
+slug: null
+certified_by: null
+certification_details: null
+published: false
+uuid: d6892edd-cb0d-4b64-af9e-42ed85d6cf66
+position:
+  DASHBOARD_VERSION_KEY: v2
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  GRID_ID:
+    children:
+    - ROW-N-L99X73X7
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: mmmm
+    type: HEADER
+  ROW-N-L99X73X7:
+    children:
+    - CHART-CYB9NXCZ
+    - CHART-CBMOEO40
+    - CHART-NLNXQEQP
+    - CHART-3HCSY7UV
+    - CHART-OE4866BB
+    - CHART-1GO27BHP
+    - CHART-62R0Y8SP
+    - CHART-F37KSC0L
+    - CHART-AU1KXW72
+    - CHART-E8H81IX4
+    - CHART-4GLXV106
+    - CHART-NBDXI7L0
+    id: ROW-N-L99X73X7
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    type: ROW
+    parents:
+    - ROOT_ID
+    - GRID_ID
+  CHART-CYB9NXCZ:
+    children: []
+    id: CHART-CYB9NXCZ
+    meta:
+      chartId: 8
+      height: 50
+      sliceName: safnjasd
+      uuid: 93c76317-b94e-4057-af5d-1ffe2cce4db9
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-L99X73X7
+  CHART-CBMOEO40:
+    children: []
+    id: CHART-CBMOEO40
+    meta:
+      chartId: 15
+      height: 50
+      sliceName: fdsijisd
+      uuid: b0cd5dcb-23ba-4423-9689-99431445eb36
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-L99X73X7
+  CHART-NLNXQEQP:
+    children: []
+    id: CHART-NLNXQEQP
+    meta:
+      chartId: 9
+      height: 50
+      sliceName: testdakaskda
+      uuid: 4728675e-7cce-475c-8732-5e59d2ca1964
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-L99X73X7
+  CHART-3HCSY7UV:
+    children: []
+    id: CHART-3HCSY7UV
+    meta:
+      chartId: 13
+      height: 50
+      sliceName: deeffefe
+      uuid: 7e2ef2ea-5e7a-4877-8f3a-2c85330b6573
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-L99X73X7
+  CHART-OE4866BB:
+    children: []
+    id: CHART-OE4866BB
+    meta:
+      chartId: 7
+      height: 50
+      sliceName: Rayan Gosling
+      uuid: 5e3fc42e-3525-4992-b71d-a7c4b911faf3
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-L99X73X7
+  CHART-1GO27BHP:
+    children: []
+    id: CHART-1GO27BHP
+    meta:
+      chartId: 10
+      height: 50
+      sliceName: ',samkamk'
+      uuid: b84f8689-43bf-40a8-90c8-705c10b63733
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-L99X73X7
+  CHART-62R0Y8SP:
+    children: []
+    id: CHART-62R0Y8SP
+    meta:
+      chartId: 6
+      height: 50
+      sliceName: blablabla
+      uuid: 83288a2a-8660-48ee-bb26-9a5290c9c9fb
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-L99X73X7
+  CHART-F37KSC0L:
+    children: []
+    id: CHART-F37KSC0L
+    meta:
+      chartId: 14
+      height: 50
+      sliceName: pipecpipecovii
+      uuid: 80a85bb3-4bdd-456c-b502-cb42c3c9170d
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-L99X73X7
+  CHART-AU1KXW72:
+    children: []
+    id: CHART-AU1KXW72
+    meta:
+      chartId: 5
+      height: 50
+      sliceName: test
+      uuid: 5480b7f0-cb06-45af-b64d-576ef4591ba5
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-L99X73X7
+  CHART-E8H81IX4:
+    children: []
+    id: CHART-E8H81IX4
+    meta:
+      chartId: 12
+      height: 50
+      sliceName: pipec
+      uuid: 722e36c9-7ecc-4118-8a43-3ef79aee7ec6
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-L99X73X7
+  CHART-4GLXV106:
+    children: []
+    id: CHART-4GLXV106
+    meta:
+      chartId: null
+      height: 50
+      sliceName: aspfdpas
+      uuid: None
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-L99X73X7
+  CHART-NBDXI7L0:
+    children: []
+    id: CHART-NBDXI7L0
+    meta:
+      chartId: 11
+      height: 50
+      sliceName: ',mmlml'
+      uuid: 7b2d7b8c-2bc7-4367-a6e6-ba4b2e7ee8b3
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-L99X73X7
+version: 1.0.0

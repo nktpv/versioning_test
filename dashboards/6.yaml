@@ -15,7 +15,7 @@ position:
     type: ROOT
   GRID_ID:
     children:
-    - ROW-N-H1XP3WN3
+    - ROW-N-GJG7I845
     id: GRID_ID
     parents:
     - ROOT_ID
@@ -25,10 +25,15 @@ position:
     meta:
       text: mdasmlml
     type: HEADER
-  ROW-N-H1XP3WN3:
+  ROW-N-GJG7I845:
     children:
-    - CHART-AOMC4IKO
-    id: ROW-N-H1XP3WN3
+    - CHART-R8ZT1AS4
+    - CHART-MOCGCPKX
+    - CHART-89OP3KUP
+    - CHART-I0CWT0BB
+    - CHART-ABFMRWAU
+    - CHART-5XUC9LPP
+    id: ROW-N-GJG7I845
     meta:
       '0': ROOT_ID
       background: BACKGROUND_TRANSPARENT
@@ -36,9 +41,79 @@ position:
     parents:
     - ROOT_ID
     - GRID_ID
-  CHART-AOMC4IKO:
+  CHART-R8ZT1AS4:
     children: []
-    id: CHART-AOMC4IKO
+    id: CHART-R8ZT1AS4
+    meta:
+      chartId: 23
+      height: 50
+      sliceName: shitshitshit
+      uuid: fc92abcd-29bd-4a83-9845-7f0487cdef14
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-GJG7I845
+  CHART-MOCGCPKX:
+    children: []
+    id: CHART-MOCGCPKX
+    meta:
+      chartId: 21
+      height: 50
+      sliceName: kekekekkryalrya
+      uuid: 565a4b9a-53c3-4bda-8934-f7325d9fc58a
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-GJG7I845
+  CHART-89OP3KUP:
+    children: []
+    id: CHART-89OP3KUP
+    meta:
+      chartId: 19
+      height: 50
+      sliceName: test
+      uuid: a7956fb6-8336-437a-aaad-4cb5cb9c9275
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-GJG7I845
+  CHART-I0CWT0BB:
+    children: []
+    id: CHART-I0CWT0BB
+    meta:
+      chartId: 20
+      height: 50
+      sliceName: jkjkd
+      uuid: 3fdb0ec6-44a3-45e6-9f78-fcf6ba82d64b
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-GJG7I845
+  CHART-ABFMRWAU:
+    children: []
+    id: CHART-ABFMRWAU
+    meta:
+      chartId: 22
+      height: 50
+      sliceName: kjkknmk
+      uuid: ad3ec144-8bc2-43e6-9777-caf1ad202c44
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-GJG7I845
+  CHART-5XUC9LPP:
+    children: []
+    id: CHART-5XUC9LPP
     meta:
       chartId: null
       height: 50
@@ -49,5 +124,5 @@ position:
     parents:
     - ROOT_ID
     - GRID_ID
-    - ROW-N-H1XP3WN3
+    - ROW-N-GJG7I845
 version: 1.0.0

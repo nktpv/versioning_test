@@ -1,0 +1,16 @@
+database_name: PostgreSQL
+sqlalchemy_uri: postgresql://examples:XXXXXXXXXX@localhost:5432/examples
+cache_timeout: null
+expose_in_sqllab: true
+allow_run_async: false
+allow_ctas: false
+allow_cvas: false
+allow_dml: false
+allow_csv_upload: true
+extra:
+  metadata_params: {}
+  engine_params: {}
+  metadata_cache_timeout: {}
+  schemas_allowed_for_csv_upload: []
+uuid: 7c0a3150-9a68-4b98-942f-fd9f06c7dcd0
+version: 1.0.0

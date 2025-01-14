@@ -15,7 +15,7 @@ position:
     type: ROOT
   GRID_ID:
     children:
-    - ROW-N-NC6YRE97
+    - ROW-N-5RRSMZQQ
     id: GRID_ID
     parents:
     - ROOT_ID
@@ -25,11 +25,10 @@ position:
     meta:
       text: mdasmlml
     type: HEADER
-  ROW-N-NC6YRE97:
+  ROW-N-5RRSMZQQ:
     children:
-    - CHART-MCJ9I3P3
-    - CHART-YIB5N3L1
-    id: ROW-N-NC6YRE97
+    - CHART-VMLWA61Z
+    id: ROW-N-5RRSMZQQ
     meta:
       '0': ROOT_ID
       background: BACKGROUND_TRANSPARENT
@@ -37,9 +36,9 @@ position:
     parents:
     - ROOT_ID
     - GRID_ID
-  CHART-MCJ9I3P3:
+  CHART-VMLWA61Z:
     children: []
-    id: CHART-MCJ9I3P3
+    id: CHART-VMLWA61Z
     meta:
       chartId: 19
       height: 50
@@ -50,19 +49,5 @@ position:
     parents:
     - ROOT_ID
     - GRID_ID
-    - ROW-N-NC6YRE97
-  CHART-YIB5N3L1:
-    children: []
-    id: CHART-YIB5N3L1
-    meta:
-      chartId: 20
-      height: 50
-      sliceName: jkjkd
-      uuid: 3fdb0ec6-44a3-45e6-9f78-fcf6ba82d64b
-      width: 4
-    type: CHART
-    parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-N-NC6YRE97
+    - ROW-N-5RRSMZQQ
 version: 1.0.0

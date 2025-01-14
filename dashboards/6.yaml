@@ -15,7 +15,7 @@ position:
     type: ROOT
   GRID_ID:
     children:
-    - ROW-N-ET6S64O5
+    - ROW-N-KTLE407O
     id: GRID_ID
     parents:
     - ROOT_ID
@@ -25,14 +25,13 @@ position:
     meta:
       text: mdasmlml
     type: HEADER
-  ROW-N-ET6S64O5:
+  ROW-N-KTLE407O:
     children:
-    - CHART-UM2OBVFY
-    - CHART-9HCHMANH
-    - CHART-Z16ULVN9
-    - CHART-VKAG6MGZ
-    - CHART-63AD7EJH
-    id: ROW-N-ET6S64O5
+    - CHART-A9QSD23I
+    - CHART-3F5M2W45
+    - CHART-QC1KPNB3
+    - CHART-2UUNOEE6
+    id: ROW-N-KTLE407O
     meta:
       '0': ROOT_ID
       background: BACKGROUND_TRANSPARENT
@@ -40,9 +39,9 @@ position:
     parents:
     - ROOT_ID
     - GRID_ID
-  CHART-UM2OBVFY:
+  CHART-A9QSD23I:
     children: []
-    id: CHART-UM2OBVFY
+    id: CHART-A9QSD23I
     meta:
       chartId: 20
       height: 50
@@ -53,10 +52,10 @@ position:
     parents:
     - ROOT_ID
     - GRID_ID
-    - ROW-N-ET6S64O5
-  CHART-9HCHMANH:
+    - ROW-N-KTLE407O
+  CHART-3F5M2W45:
     children: []
-    id: CHART-9HCHMANH
+    id: CHART-3F5M2W45
     meta:
       chartId: 22
       height: 50
@@ -67,38 +66,10 @@ position:
     parents:
     - ROOT_ID
     - GRID_ID
-    - ROW-N-ET6S64O5
-  CHART-Z16ULVN9:
+    - ROW-N-KTLE407O
+  CHART-QC1KPNB3:
     children: []
-    id: CHART-Z16ULVN9
-    meta:
-      chartId: 21
-      height: 50
-      sliceName: kekekekkryalrya
-      uuid: 565a4b9a-53c3-4bda-8934-f7325d9fc58a
-      width: 4
-    type: CHART
-    parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-N-ET6S64O5
-  CHART-VKAG6MGZ:
-    children: []
-    id: CHART-VKAG6MGZ
-    meta:
-      chartId: 23
-      height: 50
-      sliceName: shitshitshit
-      uuid: fc92abcd-29bd-4a83-9845-7f0487cdef14
-      width: 4
-    type: CHART
-    parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-N-ET6S64O5
-  CHART-63AD7EJH:
-    children: []
-    id: CHART-63AD7EJH
+    id: CHART-QC1KPNB3
     meta:
       chartId: 19
       height: 50
@@ -109,5 +80,19 @@ position:
     parents:
     - ROOT_ID
     - GRID_ID
-    - ROW-N-ET6S64O5
+    - ROW-N-KTLE407O
+  CHART-2UUNOEE6:
+    children: []
+    id: CHART-2UUNOEE6
+    meta:
+      chartId: 21
+      height: 50
+      sliceName: kekekekkryalrya
+      uuid: 565a4b9a-53c3-4bda-8934-f7325d9fc58a
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-KTLE407O
 version: 1.0.0

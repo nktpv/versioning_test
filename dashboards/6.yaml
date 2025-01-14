@@ -15,7 +15,7 @@ position:
     type: ROOT
   GRID_ID:
     children:
-    - ROW-N-GJG7I845
+    - ROW-N-ET6S64O5
     id: GRID_ID
     parents:
     - ROOT_ID
@@ -25,15 +25,14 @@ position:
     meta:
       text: mdasmlml
     type: HEADER
-  ROW-N-GJG7I845:
+  ROW-N-ET6S64O5:
     children:
-    - CHART-R8ZT1AS4
-    - CHART-MOCGCPKX
-    - CHART-89OP3KUP
-    - CHART-I0CWT0BB
-    - CHART-ABFMRWAU
-    - CHART-5XUC9LPP
-    id: ROW-N-GJG7I845
+    - CHART-UM2OBVFY
+    - CHART-9HCHMANH
+    - CHART-Z16ULVN9
+    - CHART-VKAG6MGZ
+    - CHART-63AD7EJH
+    id: ROW-N-ET6S64O5
     meta:
       '0': ROOT_ID
       background: BACKGROUND_TRANSPARENT
@@ -41,51 +40,9 @@ position:
     parents:
     - ROOT_ID
     - GRID_ID
-  CHART-R8ZT1AS4:
+  CHART-UM2OBVFY:
     children: []
-    id: CHART-R8ZT1AS4
-    meta:
-      chartId: 23
-      height: 50
-      sliceName: shitshitshit
-      uuid: fc92abcd-29bd-4a83-9845-7f0487cdef14
-      width: 4
-    type: CHART
-    parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-N-GJG7I845
-  CHART-MOCGCPKX:
-    children: []
-    id: CHART-MOCGCPKX
-    meta:
-      chartId: 21
-      height: 50
-      sliceName: kekekekkryalrya
-      uuid: 565a4b9a-53c3-4bda-8934-f7325d9fc58a
-      width: 4
-    type: CHART
-    parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-N-GJG7I845
-  CHART-89OP3KUP:
-    children: []
-    id: CHART-89OP3KUP
-    meta:
-      chartId: 19
-      height: 50
-      sliceName: test
-      uuid: a7956fb6-8336-437a-aaad-4cb5cb9c9275
-      width: 4
-    type: CHART
-    parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-N-GJG7I845
-  CHART-I0CWT0BB:
-    children: []
-    id: CHART-I0CWT0BB
+    id: CHART-UM2OBVFY
     meta:
       chartId: 20
       height: 50
@@ -96,10 +53,10 @@ position:
     parents:
     - ROOT_ID
     - GRID_ID
-    - ROW-N-GJG7I845
-  CHART-ABFMRWAU:
+    - ROW-N-ET6S64O5
+  CHART-9HCHMANH:
     children: []
-    id: CHART-ABFMRWAU
+    id: CHART-9HCHMANH
     meta:
       chartId: 22
       height: 50
@@ -110,19 +67,47 @@ position:
     parents:
     - ROOT_ID
     - GRID_ID
-    - ROW-N-GJG7I845
-  CHART-5XUC9LPP:
+    - ROW-N-ET6S64O5
+  CHART-Z16ULVN9:
     children: []
-    id: CHART-5XUC9LPP
+    id: CHART-Z16ULVN9
     meta:
-      chartId: null
+      chartId: 21
       height: 50
-      sliceName: test
-      uuid: None
+      sliceName: kekekekkryalrya
+      uuid: 565a4b9a-53c3-4bda-8934-f7325d9fc58a
       width: 4
     type: CHART
     parents:
     - ROOT_ID
     - GRID_ID
-    - ROW-N-GJG7I845
+    - ROW-N-ET6S64O5
+  CHART-VKAG6MGZ:
+    children: []
+    id: CHART-VKAG6MGZ
+    meta:
+      chartId: 23
+      height: 50
+      sliceName: shitshitshit
+      uuid: fc92abcd-29bd-4a83-9845-7f0487cdef14
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-ET6S64O5
+  CHART-63AD7EJH:
+    children: []
+    id: CHART-63AD7EJH
+    meta:
+      chartId: 19
+      height: 50
+      sliceName: test
+      uuid: a7956fb6-8336-437a-aaad-4cb5cb9c9275
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-ET6S64O5
 version: 1.0.0

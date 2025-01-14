@@ -15,7 +15,7 @@ position:
     type: ROOT
   GRID_ID:
     children:
-    - ROW-N-I5PWBO2V
+    - ROW-N-NC6YRE97
     id: GRID_ID
     parents:
     - ROOT_ID
@@ -25,12 +25,11 @@ position:
     meta:
       text: mdasmlml
     type: HEADER
-  ROW-N-I5PWBO2V:
+  ROW-N-NC6YRE97:
     children:
-    - CHART-WPJZ52PS
-    - CHART-EJH75W2E
-    - CHART-UYUKDWE8
-    id: ROW-N-I5PWBO2V
+    - CHART-MCJ9I3P3
+    - CHART-YIB5N3L1
+    id: ROW-N-NC6YRE97
     meta:
       '0': ROOT_ID
       background: BACKGROUND_TRANSPARENT
@@ -38,9 +37,9 @@ position:
     parents:
     - ROOT_ID
     - GRID_ID
-  CHART-WPJZ52PS:
+  CHART-MCJ9I3P3:
     children: []
-    id: CHART-WPJZ52PS
+    id: CHART-MCJ9I3P3
     meta:
       chartId: 19
       height: 50
@@ -51,10 +50,10 @@ position:
     parents:
     - ROOT_ID
     - GRID_ID
-    - ROW-N-I5PWBO2V
-  CHART-EJH75W2E:
+    - ROW-N-NC6YRE97
+  CHART-YIB5N3L1:
     children: []
-    id: CHART-EJH75W2E
+    id: CHART-YIB5N3L1
     meta:
       chartId: 20
       height: 50
@@ -65,19 +64,5 @@ position:
     parents:
     - ROOT_ID
     - GRID_ID
-    - ROW-N-I5PWBO2V
-  CHART-UYUKDWE8:
-    children: []
-    id: CHART-UYUKDWE8
-    meta:
-      chartId: 21
-      height: 50
-      sliceName: kekekekkryalrya
-      uuid: 565a4b9a-53c3-4bda-8934-f7325d9fc58a
-      width: 4
-    type: CHART
-    parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-N-I5PWBO2V
+    - ROW-N-NC6YRE97
 version: 1.0.0

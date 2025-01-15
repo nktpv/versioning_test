@@ -1,0 +1,68 @@
+dashboard_title: newbranch_dash
+description: null
+css: null
+slug: null
+certified_by: null
+certification_details: null
+published: false
+uuid: 6bf84b05-36d1-42b5-afce-91b93cd5d74e
+position:
+  DASHBOARD_VERSION_KEY: v2
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  GRID_ID:
+    children:
+    - ROW-N-AMZGKMWI
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: newbranch_dash
+    type: HEADER
+  ROW-N-AMZGKMWI:
+    children:
+    - CHART-SSVBXO89
+    - CHART-TXU2CKAX
+    id: ROW-N-AMZGKMWI
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    type: ROW
+    parents:
+    - ROOT_ID
+    - GRID_ID
+  CHART-SSVBXO89:
+    children: []
+    id: CHART-SSVBXO89
+    meta:
+      chartId: null
+      height: 50
+      sliceName: charttesting3
+      uuid: None
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-AMZGKMWI
+  CHART-TXU2CKAX:
+    children: []
+    id: CHART-TXU2CKAX
+    meta:
+      chartId: 29
+      height: 50
+      sliceName: newbranch_chart
+      uuid: ae7eecd2-8d7a-4b4c-a5b8-aef87240b21f
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-AMZGKMWI
+version: 1.0.0

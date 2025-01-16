@@ -1,0 +1,98 @@
+dashboard_title: new_bornneewa
+description: null
+css: null
+slug: null
+certified_by: null
+certification_details: null
+published: false
+uuid: 2d7f8260-4a3d-4cd6-862e-7486d4e6fd81
+position:
+  DASHBOARD_VERSION_KEY: v2
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  GRID_ID:
+    children:
+    - ROW-N-CRBWPNF8
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: new_bornneewa
+    type: HEADER
+  ROW-N-CRBWPNF8:
+    children:
+    - CHART-VZ6QPECX
+    - CHART-YIJ7XFW4
+    - CHART-HFG42WE2
+    - CHART-WRH357E6
+    id: ROW-N-CRBWPNF8
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    type: ROW
+    parents:
+    - ROOT_ID
+    - GRID_ID
+  CHART-VZ6QPECX:
+    children: []
+    id: CHART-VZ6QPECX
+    meta:
+      chartId: null
+      height: 50
+      sliceName: 'amsd masm '
+      uuid: None
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-CRBWPNF8
+  CHART-YIJ7XFW4:
+    children: []
+    id: CHART-YIJ7XFW4
+    meta:
+      chartId: 42
+      height: 50
+      sliceName: new_justpppc
+      uuid: 37adde2b-1e37-46b8-bc20-d6ec4b09b614
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-CRBWPNF8
+  CHART-HFG42WE2:
+    children: []
+    id: CHART-HFG42WE2
+    meta:
+      chartId: 44
+      height: 50
+      sliceName: ams dma mdasm
+      uuid: 0bcd6e15-0453-45dd-886d-6a3d29fef734
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-CRBWPNF8
+  CHART-WRH357E6:
+    children: []
+    id: CHART-WRH357E6
+    meta:
+      chartId: 43
+      height: 50
+      sliceName: msdafksad
+      uuid: d3a23d0e-5f23-4779-9fc5-b14fc18642fa
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-CRBWPNF8
+version: 1.0.0

@@ -15,7 +15,7 @@ position:
     type: ROOT
   GRID_ID:
     children:
-    - ROW-N-74TSY85Y
+    - ROW-N-4NATNPAP
     id: GRID_ID
     parents:
     - ROOT_ID
@@ -25,13 +25,14 @@ position:
     meta:
       text: main_dashboard
     type: HEADER
-  ROW-N-74TSY85Y:
+  ROW-N-4NATNPAP:
     children:
-    - CHART-TPVC3CGY
-    - CHART-M4HKR6IA
-    - CHART-6GQT112U
-    - CHART-FT9B9CW6
-    id: ROW-N-74TSY85Y
+    - CHART-K4GMJCWK
+    - CHART-EHP8LD5V
+    - CHART-0CYGXEZ1
+    - CHART-0W519BD7
+    - CHART-T2TEMPAP
+    id: ROW-N-4NATNPAP
     meta:
       '0': ROOT_ID
       background: BACKGROUND_TRANSPARENT
@@ -39,51 +40,23 @@ position:
     parents:
     - ROOT_ID
     - GRID_ID
-  CHART-TPVC3CGY:
+  CHART-K4GMJCWK:
     children: []
-    id: CHART-TPVC3CGY
+    id: CHART-K4GMJCWK
     meta:
-      chartId: 32
-      height: 50
-      sliceName: asdkask
-      uuid: cde5a166-5f7b-42a5-ae5f-6cb662fd766d
-      width: 4
-    type: CHART
-    parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-N-74TSY85Y
-  CHART-M4HKR6IA:
-    children: []
-    id: CHART-M4HKR6IA
-    meta:
-      chartId: 33
-      height: 50
-      sliceName: samkasmkmaksc
-      uuid: a46116dc-434e-4a6f-bb3d-733a2743151b
-      width: 4
-    type: CHART
-    parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-N-74TSY85Y
-  CHART-6GQT112U:
-    children: []
-    id: CHART-6GQT112U
-    meta:
-      chartId: null
+      chartId: 35
       height: 50
       sliceName: kskdsks
-      uuid: None
+      uuid: 66bf7deb-5163-4925-99b1-4f9a799f6f28
       width: 4
     type: CHART
     parents:
     - ROOT_ID
     - GRID_ID
-    - ROW-N-74TSY85Y
-  CHART-FT9B9CW6:
+    - ROW-N-4NATNPAP
+  CHART-EHP8LD5V:
     children: []
-    id: CHART-FT9B9CW6
+    id: CHART-EHP8LD5V
     meta:
       chartId: 34
       height: 50
@@ -94,5 +67,47 @@ position:
     parents:
     - ROOT_ID
     - GRID_ID
-    - ROW-N-74TSY85Y
+    - ROW-N-4NATNPAP
+  CHART-0CYGXEZ1:
+    children: []
+    id: CHART-0CYGXEZ1
+    meta:
+      chartId: 32
+      height: 50
+      sliceName: asdkask
+      uuid: cde5a166-5f7b-42a5-ae5f-6cb662fd766d
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-4NATNPAP
+  CHART-0W519BD7:
+    children: []
+    id: CHART-0W519BD7
+    meta:
+      chartId: null
+      height: 50
+      sliceName: Rayan Gosling
+      uuid: None
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-4NATNPAP
+  CHART-T2TEMPAP:
+    children: []
+    id: CHART-T2TEMPAP
+    meta:
+      chartId: 33
+      height: 50
+      sliceName: samkasmkmaksc
+      uuid: a46116dc-434e-4a6f-bb3d-733a2743151b
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-4NATNPAP
 version: 1.0.0

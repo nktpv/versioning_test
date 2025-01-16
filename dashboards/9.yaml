@@ -15,7 +15,7 @@ position:
     type: ROOT
   GRID_ID:
     children:
-    - ROW-N-7OLEO3EN
+    - ROW-N-X0G704CK
     id: GRID_ID
     parents:
     - ROOT_ID
@@ -25,10 +25,11 @@ position:
     meta:
       text: main_dashboard
     type: HEADER
-  ROW-N-7OLEO3EN:
+  ROW-N-X0G704CK:
     children:
-    - CHART-ARWXRK9I
-    id: ROW-N-7OLEO3EN
+    - CHART-3KUVBB7X
+    - CHART-5W6UK807
+    id: ROW-N-X0G704CK
     meta:
       '0': ROOT_ID
       background: BACKGROUND_TRANSPARENT
@@ -36,18 +37,32 @@ position:
     parents:
     - ROOT_ID
     - GRID_ID
-  CHART-ARWXRK9I:
+  CHART-3KUVBB7X:
     children: []
-    id: CHART-ARWXRK9I
+    id: CHART-3KUVBB7X
+    meta:
+      chartId: 32
+      height: 50
+      sliceName: asdkask
+      uuid: cde5a166-5f7b-42a5-ae5f-6cb662fd766d
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-X0G704CK
+  CHART-5W6UK807:
+    children: []
+    id: CHART-5W6UK807
     meta:
       chartId: null
       height: 50
-      sliceName: asdkask
+      sliceName: samkasmkmaksc
       uuid: None
       width: 4
     type: CHART
     parents:
     - ROOT_ID
     - GRID_ID
-    - ROW-N-7OLEO3EN
+    - ROW-N-X0G704CK
 version: 1.0.0

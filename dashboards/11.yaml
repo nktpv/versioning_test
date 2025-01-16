@@ -1,0 +1,68 @@
+dashboard_title: jabasdbjabjasdj
+description: null
+css: null
+slug: null
+certified_by: null
+certification_details: null
+published: false
+uuid: 84c46ce8-6a2a-4ba8-b382-95a4cf31cfcf
+position:
+  DASHBOARD_VERSION_KEY: v2
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  GRID_ID:
+    children:
+    - ROW-N-G6LC0X2L
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: jabasdbjabjasdj
+    type: HEADER
+  ROW-N-G6LC0X2L:
+    children:
+    - CHART-ILDRE3IK
+    - CHART-39D39GBJ
+    id: ROW-N-G6LC0X2L
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    type: ROW
+    parents:
+    - ROOT_ID
+    - GRID_ID
+  CHART-ILDRE3IK:
+    children: []
+    id: CHART-ILDRE3IK
+    meta:
+      chartId: 37
+      height: 50
+      sliceName: asdmlasmdaskmdmk
+      uuid: 4f6ca9a5-5d2b-4c5e-9b9a-b404b6fbe531
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-G6LC0X2L
+  CHART-39D39GBJ:
+    children: []
+    id: CHART-39D39GBJ
+    meta:
+      chartId: null
+      height: 50
+      sliceName: new_task
+      uuid: None
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-G6LC0X2L
+version: 1.0.0

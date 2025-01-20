@@ -1,0 +1,68 @@
+dashboard_title: newnew
+description: null
+css: null
+slug: null
+certified_by: null
+certification_details: null
+published: false
+uuid: bc599962-b2a9-451e-b486-685ff45933b0
+position:
+  DASHBOARD_VERSION_KEY: v2
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  GRID_ID:
+    children:
+    - ROW-N-P93CM2BE
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: newnew
+    type: HEADER
+  ROW-N-P93CM2BE:
+    children:
+    - CHART-7H6UGDIL
+    - CHART-GRXZX0DK
+    id: ROW-N-P93CM2BE
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    type: ROW
+    parents:
+    - ROOT_ID
+    - GRID_ID
+  CHART-7H6UGDIL:
+    children: []
+    id: CHART-7H6UGDIL
+    meta:
+      chartId: 46
+      height: 50
+      sliceName: new_testest
+      uuid: 2a7f5df1-69fe-4653-a9b9-d235239e9221
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-P93CM2BE
+  CHART-GRXZX0DK:
+    children: []
+    id: CHART-GRXZX0DK
+    meta:
+      chartId: null
+      height: 50
+      sliceName: kskdmka
+      uuid: None
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-P93CM2BE
+version: 1.0.0

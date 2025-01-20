@@ -14,7 +14,8 @@ position:
     id: ROOT_ID
     type: ROOT
   GRID_ID:
-    children: []
+    children:
+    - ROW-N-BMON3LBH
     id: GRID_ID
     parents:
     - ROOT_ID
@@ -24,4 +25,29 @@ position:
     meta:
       text: newnew
     type: HEADER
+  ROW-N-BMON3LBH:
+    children:
+    - CHART-D8I10R6Y
+    id: ROW-N-BMON3LBH
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    type: ROW
+    parents:
+    - ROOT_ID
+    - GRID_ID
+  CHART-D8I10R6Y:
+    children: []
+    id: CHART-D8I10R6Y
+    meta:
+      chartId: null
+      height: 50
+      sliceName: new_testest
+      uuid: None
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-BMON3LBH
 version: 1.0.0

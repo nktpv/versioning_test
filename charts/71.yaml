@@ -1,0 +1,73 @@
+slice_name: namenam
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params:
+  datasource: 11__table
+  viz_type: table
+  slice_id: 71
+  query_mode: aggregate
+  groupby:
+  - PROD_TAG
+  - CNT1_E
+  - CNT1_A
+  - PER_TAG
+  temporal_columns_lookup: {}
+  all_columns: []
+  percent_metrics: []
+  adhoc_filters: []
+  order_by_cols: []
+  row_limit: 1000
+  server_page_length: 10
+  order_desc: true
+  table_timestamp_format: smart_date
+  allow_render_html: true
+  show_cell_bars: true
+  color_pn: true
+  comparison_color_scheme: Green
+  show_tooltip_labels: true
+  tooltipTimeFormat: smart_date
+  tooltip_font_family: Arial
+  tooltip_font: 14
+  tooltip_font_decorations_control:
+    bold: false
+    italic: false
+    underline: false
+  tooltipColorFont:
+    a: 1
+    b: 92
+    g: 94
+    r: 96
+  show_dimensions: true
+  dimensions_font_family: Inter
+  dimensions_font_size:
+    config:
+      default: 12
+      description: Change Label font size
+      label: Font size
+      max: 20
+      min: 10
+      renderTrigger: true
+      step: 1
+      type: SliderControl
+    name: y_axis_label_font
+  dimensions_font_decorations_control:
+    bold: false
+    italic: false
+    underline: false
+  dimensions_color_picker:
+    a: 1
+    b: 0
+    g: 0
+    r: 0
+  comparison_type: values
+  extra_form_data: {}
+  dashboards:
+  - 19
+query_context: '{"datasource":{"id":11,"type":"table"},"force":false,"queries":[{"filters":[],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["PROD_TAG","CNT1_E","CNT1_A","PER_TAG"],"metrics":[],"orderby":[],"annotation_layers":[],"row_limit":1000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[],"time_offsets":[]}],"form_data":{"datasource":"11__table","viz_type":"table","slice_id":71,"query_mode":"aggregate","groupby":["PROD_TAG","CNT1_E","CNT1_A","PER_TAG"],"temporal_columns_lookup":{},"all_columns":[],"percent_metrics":[],"adhoc_filters":[],"order_by_cols":[],"row_limit":1000,"server_page_length":10,"order_desc":true,"table_timestamp_format":"smart_date","allow_render_html":true,"show_cell_bars":true,"color_pn":true,"comparison_color_scheme":"Green","show_tooltip_labels":true,"tooltipTimeFormat":"smart_date","tooltip_font_family":"Arial","tooltip_font":14,"tooltip_font_decorations_control":{"bold":false,"italic":false,"underline":false},"tooltipColorFont":{"a":1,"b":92,"g":94,"r":96},"show_dimensions":true,"dimensions_font_family":"Inter","dimensions_font_size":{"config":{"default":12,"description":"Change
+  Label font size","label":"Font size","max":20,"min":10,"renderTrigger":true,"step":1,"type":"SliderControl"},"name":"y_axis_label_font"},"dimensions_font_decorations_control":{"bold":false,"italic":false,"underline":false},"dimensions_color_picker":{"a":1,"b":0,"g":0,"r":0},"comparison_type":"values","extra_form_data":{},"dashboards":[19],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: 7a827571-db25-4091-9c3c-cb1b1436f576
+version: 1.0.0
+dataset_uuid: 94c1fce8-31f8-44a5-8af9-2c5ae45d18bb

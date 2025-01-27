@@ -1,0 +1,175 @@
+dashboard_title: temptemptdash
+description: null
+css: null
+slug: null
+certified_by: null
+certification_details: null
+published: false
+uuid: 48e18538-e329-423a-9630-63f894f36346
+position:
+  DASHBOARD_VERSION_KEY: v2
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  GRID_ID:
+    children:
+    - ROW-N-N9BV3NMB
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: temptemptdash
+    type: HEADER
+  ROW-N-N9BV3NMB:
+    children:
+    - CHART-YOV2EGHS
+    - CHART-BD9XS5U5
+    - CHART-RKDHZRJG
+    - CHART-PKHM92WK
+    - CHART-YWSI639F
+    - CHART-1A3J4HE5
+    - CHART-GCDT6LXL
+    - CHART-NB284IWQ
+    - CHART-5F5NBIPX
+    id: ROW-N-N9BV3NMB
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    type: ROW
+    parents:
+    - ROOT_ID
+    - GRID_ID
+  CHART-YOV2EGHS:
+    children: []
+    id: CHART-YOV2EGHS
+    meta:
+      chartId: 77
+      height: 50
+      sliceName: temptemp2
+      uuid: eb97c891-af80-4bd3-8de9-767b9eb99ab5
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-N9BV3NMB
+  CHART-BD9XS5U5:
+    children: []
+    id: CHART-BD9XS5U5
+    meta:
+      chartId: 84
+      height: 50
+      sliceName: temptemp40
+      uuid: 0e516ce8-b79d-466c-a494-723591db6583
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-N9BV3NMB
+  CHART-RKDHZRJG:
+    children: []
+    id: CHART-RKDHZRJG
+    meta:
+      chartId: 83
+      height: 50
+      sliceName: temptemp5
+      uuid: 4494ee02-8394-4fbf-90c7-261e78895181
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-N9BV3NMB
+  CHART-PKHM92WK:
+    children: []
+    id: CHART-PKHM92WK
+    meta:
+      chartId: 78
+      height: 50
+      sliceName: temptemp3
+      uuid: c2de74a2-470f-4b83-9327-b232365c1d76
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-N9BV3NMB
+  CHART-YWSI639F:
+    children: []
+    id: CHART-YWSI639F
+    meta:
+      chartId: 80
+      height: 50
+      sliceName: temptemp5
+      uuid: 516a9f85-07ea-4635-b2a7-28bb010f440f
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-N9BV3NMB
+  CHART-1A3J4HE5:
+    children: []
+    id: CHART-1A3J4HE5
+    meta:
+      chartId: 85
+      height: 50
+      sliceName: charcahrt22
+      uuid: 76a091cc-210a-4879-aa65-27dd85cc8b01
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-N9BV3NMB
+  CHART-GCDT6LXL:
+    children: []
+    id: CHART-GCDT6LXL
+    meta:
+      chartId: 81
+      height: 50
+      sliceName: temptemp5
+      uuid: 40e061da-cce6-4de9-876a-78c0d05251e8
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-N9BV3NMB
+  CHART-NB284IWQ:
+    children: []
+    id: CHART-NB284IWQ
+    meta:
+      chartId: 79
+      height: 50
+      sliceName: temptemp4
+      uuid: 8f7b42ed-86ce-4716-91d6-b7ea94974aaf
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-N9BV3NMB
+  CHART-5F5NBIPX:
+    children: []
+    id: CHART-5F5NBIPX
+    meta:
+      chartId: 82
+      height: 50
+      sliceName: temptemp5
+      uuid: 35df740e-1c12-42f5-9c83-49787df0eaba
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-N9BV3NMB
+version: 1.0.0
+owners:
+- 1

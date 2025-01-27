@@ -14,7 +14,8 @@ position:
     id: ROOT_ID
     type: ROOT
   GRID_ID:
-    children: []
+    children:
+    - ROW-N-BED2SS9V
     id: GRID_ID
     parents:
     - ROOT_ID
@@ -24,6 +25,31 @@ position:
     meta:
       text: temptemptdash
     type: HEADER
+  ROW-N-BED2SS9V:
+    children:
+    - CHART-8UVCP61X
+    id: ROW-N-BED2SS9V
+    meta:
+      '0': ROOT_ID
+      background: BACKGROUND_TRANSPARENT
+    type: ROW
+    parents:
+    - ROOT_ID
+    - GRID_ID
+  CHART-8UVCP61X:
+    children: []
+    id: CHART-8UVCP61X
+    meta:
+      chartId: 77
+      height: 50
+      sliceName: temptemp2
+      uuid: eb97c891-af80-4bd3-8de9-767b9eb99ab5
+      width: 4
+    type: CHART
+    parents:
+    - ROOT_ID
+    - GRID_ID
+    - ROW-N-BED2SS9V
 version: 1.0.0
 owners:
 - 1

@@ -1,0 +1,74 @@
+slice_name: tempsakdo
+description: null
+certified_by: null
+certification_details: null
+viz_type: table
+params:
+  datasource: 11__table
+  viz_type: table
+  query_mode: aggregate
+  groupby:
+  - PER_TAG
+  - CNT1_A
+  time_grain_sqla: P1D
+  temporal_columns_lookup: {}
+  all_columns: []
+  percent_metrics: []
+  adhoc_filters: []
+  order_by_cols: []
+  row_limit: 1000
+  server_page_length: 10
+  order_desc: true
+  table_timestamp_format: smart_date
+  allow_render_html: true
+  show_cell_bars: true
+  color_pn: true
+  comparison_color_scheme: Green
+  show_tooltip_labels: true
+  tooltipTimeFormat: smart_date
+  tooltip_font_family: Arial
+  tooltip_font: 14
+  tooltip_font_decorations_control:
+    bold: false
+    italic: false
+    underline: false
+  tooltipColorFont:
+    r: 96
+    g: 94
+    b: 92
+    a: 1
+  show_dimensions: true
+  dimensions_font_family: Inter
+  dimensions_font_size:
+    name: y_axis_label_font
+    config:
+      type: SliderControl
+      label: Font size
+      default: 12
+      renderTrigger: true
+      min: 10
+      max: 20
+      step: 1
+      description: Change Label font size
+  dimensions_font_decorations_control:
+    bold: false
+    italic: false
+    underline: false
+  dimensions_color_picker:
+    r: 0
+    g: 0
+    b: 0
+    a: 1
+  comparison_type: values
+  extra_form_data: {}
+  dashboards:
+  - 23
+query_context: '{"datasource":{"id":11,"type":"table"},"force":false,"queries":[{"filters":[],"extras":{"having":"","where":""},"applied_time_extras":{},"columns":["PER_TAG","CNT1_A"],"metrics":[],"orderby":[],"annotation_layers":[],"row_limit":1000,"series_limit":0,"order_desc":true,"url_params":{},"custom_params":{},"custom_form_data":{},"post_processing":[],"time_offsets":[]}],"form_data":{"datasource":"11__table","viz_type":"table","query_mode":"aggregate","groupby":["PER_TAG","CNT1_A"],"time_grain_sqla":"P1D","temporal_columns_lookup":{},"all_columns":[],"percent_metrics":[],"adhoc_filters":[],"order_by_cols":[],"row_limit":1000,"server_page_length":10,"order_desc":true,"table_timestamp_format":"smart_date","allow_render_html":true,"show_cell_bars":true,"color_pn":true,"comparison_color_scheme":"Green","show_tooltip_labels":true,"tooltipTimeFormat":"smart_date","tooltip_font_family":"Arial","tooltip_font":14,"tooltip_font_decorations_control":{"bold":false,"italic":false,"underline":false},"tooltipColorFont":{"r":96,"g":94,"b":92,"a":1},"show_dimensions":true,"dimensions_font_family":"Inter","dimensions_font_size":{"name":"y_axis_label_font","config":{"type":"SliderControl","label":"Font
+  size","default":12,"renderTrigger":true,"min":10,"max":20,"step":1,"description":"Change
+  Label font size"}},"dimensions_font_decorations_control":{"bold":false,"italic":false,"underline":false},"dimensions_color_picker":{"r":0,"g":0,"b":0,"a":1},"comparison_type":"values","extra_form_data":{},"dashboards":[23],"force":false,"result_format":"json","result_type":"full"},"result_format":"json","result_type":"full"}'
+cache_timeout: null
+uuid: afab5d2e-b89b-4bf0-a160-9aee9e6aee5c
+version: 1.0.0
+dataset_uuid: 94c1fce8-31f8-44a5-8af9-2c5ae45d18bb
+owners:
+- 1

@@ -6,11 +6,11 @@ allow_run_async: false
 allow_ctas: false
 allow_cvas: false
 allow_dml: false
-allow_csv_upload: true
+allow_file_upload: true
 extra:
   metadata_params: {}
   engine_params: {}
   metadata_cache_timeout: {}
-  schemas_allowed_for_csv_upload: []
+  schemas_allowed_for_file_upload: []
 uuid: dc9a101d-2b8c-4573-ac64-4ef70e45f508
 version: 1.0.0

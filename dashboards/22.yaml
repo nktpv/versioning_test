@@ -1,11 +1,20 @@
-dashboard_title: newbranch_dash
+dashboard_title: samkfkf
 description: null
 css: null
 slug: null
 certified_by: null
 certification_details: null
 published: false
-uuid: 6bf84b05-36d1-42b5-afce-91b93cd5d74e
+uuid: 3a2b9bfa-56e3-408b-962c-e078b0bf9983
+metadata:
+  timed_refresh_immune_slices: []
+  expanded_slices: {}
+  refresh_frequency: 0
+  color_scheme: ''
+  label_colors: {}
+  shared_label_colors: {}
+  color_scheme_domain: []
+  cross_filters_enabled: true
 position:
   DASHBOARD_VERSION_KEY: v2
   ROOT_ID:
@@ -15,7 +24,7 @@ position:
     type: ROOT
   GRID_ID:
     children:
-    - ROW-N-AMZGKMWI
+    - ROW-N-0J39MZSN
     id: GRID_ID
     parents:
     - ROOT_ID
@@ -23,13 +32,12 @@ position:
   HEADER_ID:
     id: HEADER_ID
     meta:
-      text: newbranch_dash
+      text: samkfkf
     type: HEADER
-  ROW-N-AMZGKMWI:
+  ROW-N-0J39MZSN:
     children:
-    - CHART-SSVBXO89
-    - CHART-TXU2CKAX
-    id: ROW-N-AMZGKMWI
+    - CHART-F29HSU9Y
+    id: ROW-N-0J39MZSN
     meta:
       '0': ROOT_ID
       background: BACKGROUND_TRANSPARENT
@@ -37,32 +45,20 @@ position:
     parents:
     - ROOT_ID
     - GRID_ID
-  CHART-SSVBXO89:
+  CHART-F29HSU9Y:
     children: []
-    id: CHART-SSVBXO89
+    id: CHART-F29HSU9Y
     meta:
-      chartId: null
+      chartId: 76
       height: 50
-      sliceName: charttesting3
-      uuid: None
+      sliceName: asdmasnkdf`
+      uuid: 02c983d4-403b-40e7-8c7f-f57df291b894
       width: 4
     type: CHART
     parents:
     - ROOT_ID
     - GRID_ID
-    - ROW-N-AMZGKMWI
-  CHART-TXU2CKAX:
-    children: []
-    id: CHART-TXU2CKAX
-    meta:
-      chartId: 29
-      height: 50
-      sliceName: newbranch_chart
-      uuid: ae7eecd2-8d7a-4b4c-a5b8-aef87240b21f
-      width: 4
-    type: CHART
-    parents:
-    - ROOT_ID
-    - GRID_ID
-    - ROW-N-AMZGKMWI
+    - ROW-N-0J39MZSN
 version: 1.0.0
+owners:
+- 1

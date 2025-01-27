@@ -1,4 +1,4 @@
-table_name: testet
+table_name: mydataset
 main_dttm_col: null
 description: null
 default_endpoint: null
@@ -14,7 +14,7 @@ fetch_values_predicate: null
 extra: null
 normalize_columns: false
 always_filter_main_dttm: false
-uuid: c035ed2c-617e-4814-a848-e21c7a79e222
+uuid: 94c1fce8-31f8-44a5-8af9-2c5ae45d18bb
 metrics:
 - metric_name: count
   verbose_name: COUNT(*)
@@ -1120,3 +1120,5 @@ columns:
   extra: null
 version: 1.0.0
 database_uuid: dc9a101d-2b8c-4573-ac64-4ef70e45f508
+owners:
+- 1

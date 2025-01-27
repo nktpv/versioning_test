@@ -1,0 +1,29 @@
+dashboard_title: samkfkfkknf
+description: null
+css: null
+slug: null
+certified_by: null
+certification_details: null
+published: false
+uuid: 3a2b9bfa-56e3-408b-962c-e078b0bf9983
+position:
+  DASHBOARD_VERSION_KEY: v2
+  ROOT_ID:
+    children:
+    - GRID_ID
+    id: ROOT_ID
+    type: ROOT
+  GRID_ID:
+    children: []
+    id: GRID_ID
+    parents:
+    - ROOT_ID
+    type: GRID
+  HEADER_ID:
+    id: HEADER_ID
+    meta:
+      text: samkfkfkknf
+    type: HEADER
+version: 1.0.0
+owners:
+- 1
